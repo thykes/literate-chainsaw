@@ -2,11 +2,35 @@ Title: Home
 
 ----
 
-Headline: Welcome to Kirby's Starterkit
+HeroTitle: Experience + <span>Creativity</span>
 
 ----
 
-Subheadline: A fully documented example project
+HeroText: We're an innovative global ui/ux design agency building high-end products and experiences that grow your business exponentially.
+
+----
+
+AboutSubtitle: 140+ projects closed
+
+----
+
+AboutTitle: As a digital designer, I focus on producing top notch and impactful digital experiences.
+
+----
+
+AboutText1: Together, we construct tailored marketing campaigns that engage and resonate with customers on a deeper level. Adaptiv’s approach amplifies brand awareness and loyalty and paves the way for sustainable business growth and success.
+
+----
+
+AboutText2: We believe that understanding and solving clients' issues is the key to success. Now It's your time to overcome challenges, face fresh perspective and realize full potential.
+
+----
+
+AboutText3: Based on strong expertise and a battle-tested business.!
+
+----
+
+Categories: Website Development, Ul / UX Design, Mobile Apps Development, Custom Software Development, Brand Ideation
 
 ----
 
