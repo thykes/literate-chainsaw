@@ -1,18 +1,15 @@
 # System files
 # ------------
-
 Icon
 .DS_Store
 
 # Temporary files
 # ---------------
-
 /media/*
 !/media/index.html
 
 # Lock files
 # ---------------
-
 .lock
 
 # Editors
@@ -28,23 +25,82 @@ Icon
 
 # Cache Files
 # ---------------
-
 /site/cache/*
 !/site/cache/index.html
 
 # Accounts
 # ---------------
-
 /site/accounts/*
 !/site/accounts/index.html
 
 # Sessions
 # ---------------
-
 /site/sessions/*
 !/site/sessions/index.html
 
 # License
 # ---------------
-
 /site/config/.license
+
+# Configuration Files (Potentially Sensitive)
+# -----------------
+/site/config/config.php
+/config.php
+/site/config/config.starterkit.test.php
+
+# Environment Files
+# -----------------
+.env
+.env.local
+.env.*.local
+
+# Backup or Database Files
+# ------------------------
+*.sql
+*.bak
+*.backup
+*.db
+
+# Node Modules & Vendor (Dependencies)
+# -----------------
+node_modules/
+/vendor/
+
+# Private Keys and Certificates
+# -----------------
+*.key
+*.pem
+*.cert
+
+# Logs
+# -----------------
+*.log
+/logs/
+/site/logs/*
+
+# Temporary and Generated Files
+# -----------------
+/tmp/
+/temp/
+/cache/
+
+# Git and VCS
+# -----------------
+.gitignore
+.gitattributes
+
+# IDE-specific files
+# -----------------
+*.idea
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Kirby CMS Specific
+# -----------------
+/kirby/.htaccess
+/site/cache/*
+/site/sessions/*
