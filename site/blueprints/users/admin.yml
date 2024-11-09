@@ -1,0 +1,66 @@
+title: Admin
+
+permissions:
+  site:
+    changeTitle: true
+    changeUrl: true
+    changeTemplate: true
+    delete: true
+    update: true
+  pages:
+    create: true
+    changeTitle: true
+    changeSlug: true
+    changeStatus: true
+    changeTemplate: true
+    delete: true
+    duplicate: true
+    read: true
+    update: true
+  files:
+    create: true
+    delete: true
+    replace: true
+    update: true
+  users:
+    create: true
+    delete: true
+    update: true
+  user:
+    changeEmail: true
+    changeLanguage: true
+    changeName: true
+    changePassword: true
+    changeRole: true
+
+fields:
+  profile_image:
+    label: Profile Image
+    type: files
+    max: 1
+    uploads:
+      template: profile-image
+    help: "Upload a profile image for the author."
+
+  bio:
+    label: Bio
+    type: textarea
+    help: "Add a short biography for the author to be displayed on the blog post."
+
+  social_links:
+    label: Social Links
+    type: structure
+    fields:
+      platform:
+        label: Platform
+        type: select
+        options:
+          facebook: Facebook
+          twitter: Twitter
+          linkedin: LinkedIn
+          instagram: Instagram
+          website: Website
+      url:
+        label: URL
+        type: url
+    help: "Add social media profiles or website links for the author."

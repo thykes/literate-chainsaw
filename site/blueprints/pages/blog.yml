@@ -1,0 +1,49 @@
+title: Blog
+preset: page
+fields:
+  text:
+    label: Text
+    type: textarea
+    
+sections:
+  posts:
+    type: pages
+    headline: Blog Posts
+    status: listed
+    layout: cards
+    templates:
+      - post
+    sortable: true
+    create:
+      - post
+    info: "{{ page.date.toDate('d M, Y') }} — {{ page.title }}"
+
+  settings:
+    type: fields
+    fields:
+      headline:
+        label: Blog Page Headline
+        type: text
+        width: 1/2
+      description:
+        label: Blog Page Description
+        type: textarea
+        width: 1/2
+      featuredImage:
+        label: Featured Image
+        type: files
+        max: 1
+        width: 1/2
+      tags:
+        label: Tags
+        type: tags
+        width: 1/2
+
+options:
+  changeSlug: true
+  changeStatus: true
+  delete: false
+  duplicate: true
+  preview: true
+  changeTemplate: true  # Changed this from false to true
+  changeTitle: true

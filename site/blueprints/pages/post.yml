@@ -1,0 +1,79 @@
+title: Blog Post
+preset: page
+options:
+  template: false
+  delete: true
+  changeStatus: true
+  changeSlug: true
+  changeTemplate: false
+  changeTitle: true
+  duplicate: true
+  preview: true
+  changeParent: false
+  create: false # Disable the ability to create child pages
+
+fields:
+  title:
+    label: Title
+    type: text
+    width: 1/2
+  date:
+    label: Date
+    type: date
+    default: today
+    width: 1/2
+  cover:
+    label: Cover Image
+    type: files
+    max: 1
+  author:
+    label: Author
+    type: users
+  tags:
+    label: Tags
+    type: tags
+  text:
+    label: Content
+    type: blocks
+    fieldsets:
+      code:
+        name: Code
+        type: code
+        label: Code Block
+        language: php
+      gallery:
+        name: Gallery
+        type: gallery
+        label: Gallery
+      heading:
+        name: Heading
+        type: heading
+        label: Heading
+      image:
+        name: Image
+        type: image
+        label: Image
+      line:
+        name: Line
+        type: line
+        label: Line
+      list:
+        name: List
+        type: list
+        label: List
+      markdown:
+        name: Markdown
+        type: markdown
+        label: Markdown
+      quote:
+        name: Quote
+        type: quote
+        label: Quote
+      text:
+        name: Text
+        type: text
+        label: Text
+      video:
+        name: Video
+        type: video
+        label: Video
