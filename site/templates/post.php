@@ -26,9 +26,20 @@
                      <div class="row">
                         <div class="col-md-4">
                            <div class="blog-details-top-meta text-center">
-                              <?php if ($author = $page->author()->toUser()): ?>
-                              <span><?= $author->name()->esc() ?></span>
-                              <?php endif ?>
+<?php if ($page->author()->isNotEmpty()): ?>
+    <?php $authors = $page->author()->yaml(); ?>
+    <?php if (is_array($authors)): ?>
+        <?php foreach ($authors as $authorId): ?>
+            <?php if (is_string($authorId) && $author = kirby()->user($authorId)): ?>
+                <span><?= $author->name()->esc() ?></span>
+            <?php endif; ?>
+        <?php endforeach; ?>
+    <?php elseif (is_string($authors) && $author = kirby()->user($authors)): ?>
+        <span><?= $author->name()->esc() ?></span>
+    <?php endif; ?>
+<?php endif; ?>
+
+
                            </div>
                         </div>
                         <div class="col-md-4">
