@@ -1,0 +1,25 @@
+Title: Blog
+
+----
+
+Headline: Read All News
+
+----
+
+Description: Featured Stories
+
+----
+
+Featuredimage: - file://x6lqMeUX8LZc4br8
+
+----
+
+Tags: news, updates, stories
+
+----
+
+Template: blog
+
+----
+
+Uuid: R92Y01uxK0Yy6z4m

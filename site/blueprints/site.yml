@@ -29,4 +29,5 @@ columns:
         templates:
           - about
           - home
+          - blog
           - default

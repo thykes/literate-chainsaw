@@ -1,0 +1,17 @@
+title: Heading
+fields:
+  text:
+    label: Heading Text
+    type: text
+  level:
+    label: Heading Level
+    type: select
+    options:
+      h1: H1
+      h2: H2
+      h3: H3
+      h4: H4
+      h5: H5
+      h6: H6
+    default: h2
+    help: "Choose the heading level (H1-H6)."

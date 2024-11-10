@@ -1,5 +1,6 @@
 title: Blog
 preset: page
+
 fields:
   text:
     label: Text
@@ -9,14 +10,16 @@ sections:
   posts:
     type: pages
     headline: Blog Posts
-    status: listed
+    status: all  # Allows viewing both listed and draft posts
     layout: cards
     templates:
-      - post
+      - post  # Ensure there's a 'post.yml' blueprint for creating new posts
     sortable: true
     create:
-      - post
+      - post  # Enables the option to create new posts
     info: "{{ page.date.toDate('d M, Y') }} — {{ page.title }}"
+    draft: true  # Allows creating draft posts
+    schedule: true  # Enables scheduling posts for publication
 
   settings:
     type: fields
@@ -25,19 +28,23 @@ sections:
         label: Blog Page Headline
         type: text
         width: 1/2
+        help: "The main headline that will be displayed at the top of the blog page."
       description:
         label: Blog Page Description
         type: textarea
         width: 1/2
+        help: "A brief description or subtitle for the blog page."
       featuredImage:
         label: Featured Image
         type: files
         max: 1
         width: 1/2
+        help: "Upload an image to use as the banner background for the blog page."
       tags:
         label: Tags
         type: tags
         width: 1/2
+        help: "Tags associated with the blog for easier categorization."
 
 options:
   changeSlug: true
@@ -45,5 +52,5 @@ options:
   delete: false
   duplicate: true
   preview: true
-  changeTemplate: true  # Changed this from false to true
+  changeTemplate: true
   changeTitle: true
