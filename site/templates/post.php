@@ -25,15 +25,32 @@
                   <div class="blog-details-thumb-wrap">
                      <div class="row">
                         <div class="col-md-4">
-<?php
-$authorId = $page->author()->value();
 
-// Check if the author ID is a string and not an array
-if (is_string($authorId) && $author = kirby()->user($authorId)): ?>
+
+<?php
+$authorField = $page->author()->yaml(); // Use yaml() to get the value as an array if needed
+
+// Check if $authorField is an array and extract the ID, otherwise treat it as a string
+if (is_array($authorField)) {
+    $authorId = $authorField['id'] ?? (is_array($authorField[0]) ? $authorField[0]['id'] : null);
+} else {
+    $authorId = $authorField; // Simple string case
+}
+
+if ($authorId && $author = kirby()->user($authorId)): ?>
     <div class="blog-details-top-meta text-center">
         <span><?= $author->name()->esc() ?></span>
     </div>
+<?php else: ?>
+    <div class="blog-details-top-meta text-center">
+        <span>Unknown Author</span>
+    </div>
 <?php endif; ?>
+
+
+
+
+
 
                         </div>
                         <div class="col-md-4">
