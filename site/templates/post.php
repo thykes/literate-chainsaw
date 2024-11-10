@@ -25,11 +25,16 @@
                   <div class="blog-details-thumb-wrap">
                      <div class="row">
                         <div class="col-md-4">
-                           <div class="blog-details-top-meta text-center">
-                              <?php if ($author = $page->author()->toUser()): ?>
-                              <span><?= $author->name()->esc() ?></span>
-                              <?php endif ?>
-                           </div>
+<?php
+$authorId = $page->author()->value();
+
+// Check if the author ID is a string and not an array
+if (is_string($authorId) && $author = kirby()->user($authorId)): ?>
+    <div class="blog-details-top-meta text-center">
+        <span><?= $author->name()->esc() ?></span>
+    </div>
+<?php endif; ?>
+
                         </div>
                         <div class="col-md-4">
                            <div class="blog-details-top-meta text-center">
