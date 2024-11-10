@@ -61,9 +61,15 @@ if (is_string($authorId) && $author = kirby()->user($authorId)): ?>
                      <div class="row">
                         <div class="col-xl-12">
                            <div class="blog-details-thumb">
-                              <?php if ($featuredImage = $page->featuredImage()->toFile()): ?>
-                              <img class="w-100" data-speed=".8" src="<?= $featuredImage->url() ?>" alt="<?= $featuredImage->alt()->esc() ?>">
-                              <?php endif ?>
+<?php
+$featuredImages = $page->featuredimage()->yaml();
+if (!empty($featuredImages) && is_array($featuredImages)) {
+    $imageUrl = $featuredImages[0]['url'] ?? null; // Get the first image's URL
+    if ($imageUrl): ?>
+        <img class="w-100" data-speed=".8" src="<?= $imageUrl ?>" alt="">
+    <?php endif;
+} ?>
+
                            </div>
                         </div>
                      </div>
