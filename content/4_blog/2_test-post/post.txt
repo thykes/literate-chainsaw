@@ -1,0 +1,64 @@
+Title: Taking Your brand in the Metaverse
+
+----
+
+Content: [{"content":{"level":"h4","text":"To be or not to be that is the question"},"id":"df6b1b34-3d37-4d38-8c73-0ce6387a5132","isHidden":false,"type":"heading"},{"content":{"text":"<p>The metaverse can be viewed as an evolution of today\u2019s internet, which in turn evolved from passive media that we simply consumed. In the age of radio and television, the consumer\u2019s only job was to listen and decide if they wanted to buy.<\/p>"},"id":"423a89f7-f108-4ee4-905d-9406d3350865","isHidden":false,"type":"text"},{"content":{"text":"Don't watch the clock; do what it does. keep going.","citation":"Sam Levenson"},"id":"c9f6f034-a442-4f61-8895-54b64a87f777","isHidden":false,"type":"quote"},{"content":{"text":"<p>The metaverse can be viewed as an evolution of today\u2019s internet, which in turn evolved from passive media that we simply consumed. In the age of radio and television, the consumer\u2019s only job was to listen and decide if they wanted to buy. While the internet added active participation and community-building, the metaverse adds total immersion and the power to co-create, trade, promote and even profit in ways never before imagined \u2013 bringing an entirely new level of complexity to the ways in which brands can interact with their target market. Hi<\/p>"},"id":"82aa1589-8975-4ffe-a517-d0c2294c4071","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file:\/\/bZKvw1cOnYAEcdvl"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a69ef276-29f4-4953-bf24-21cbdee4df1e","isHidden":false,"type":"image"}]
+
+----
+
+Featuredimage: - file://sxC51VZdzoNIYE73
+
+----
+
+Date: 2024-11-09 00:00:00
+
+----
+
+Author: - user://Ep9aeA5c
+
+----
+
+Tags: Creative, Photography, Lifestyle
+
+----
+
+Reading-time: 6
+
+----
+
+Text: test
+
+----
+
+Additional-images: 
+
+----
+
+Headline: Hello
+
+----
+
+Description: test
+
+----
+
+Uuid: z53WORS0SXO9AS5f
+
+----
+
+Blocks:
+
+- 
+  content:
+    level: h2
+    text: ""
+  id: 57b0c684-6874-4a5b-bbd8-77a94d6319ea
+  isHidden: false
+  type: heading
+- 
+  content:
+    level: h2
+    text: ""
+  id: c53f7d32-c08e-47fb-93b3-e555eab1523d
+  isHidden: false
+  type: heading

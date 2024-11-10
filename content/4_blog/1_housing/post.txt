@@ -1,0 +1,74 @@
+Title: Cultivating Originality In Photography
+
+----
+
+Text: [{"content":{"level":"h4","text":"<strong>What is Lorem Ipsum?<\/strong>"},"id":"4cd46f48-2927-440f-a342-f616d9fde03e","isHidden":false,"type":"heading"},{"content":{"text":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged<\/p>"},"id":"0b1bbdbf-fb19-4125-ab06-7b49f936291b","isHidden":false,"type":"text"},{"content":{"level":"h4","text":"<strong>Relationship &amp; Communication<\/strong>"},"id":"24d2de0d-f989-4cc4-9207-213fcc976094","isHidden":false,"type":"heading"},{"content":{"text":"<p>But, like most politicians, he promised more than he could deliver. Why not indeed! Daylight and everything. And then the battle\u2019s not so bad? Hello, little man. I will destroy you! No, I\u2019m Santa Claus! Kif might! Man, I\u2019m sore all over. I feel like I just went ten rounds with mighty Thor. I found what I need. And it\u2019s not friends, it\u2019s things. Then we\u2019ll go with that data file!<\/p>"},"id":"c353faaf-4d24-4bb5-8465-bc2d62378b53","isHidden":false,"type":"text"},{"content":{"text":"Don't watch the clock; do what it does. keep going.","citation":"<strong>Sam Levenson<\/strong>"},"id":"1c00a204-421b-464a-b7bb-f1c113531545","isHidden":false,"type":"quote"},{"content":{"text":"<p>With any accomplished project, great time management is an essential component. We business owners hire product designers, they expect them to not only perform well, but also on time. At Stan Vision, we provide you with an experienced design team, led by an expert PM who knows how to prioritise your platform and product.<\/p>"},"id":"4df652cd-c7b4-46ad-8e4f-547aff3cbe96","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file:\/\/7eNvJqLWFbozJZXb"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"c95deda0-5a9b-4aa2-844d-d73e9da9cbdf","isHidden":false,"type":"image"},{"content":{"level":"h4","text":"<strong>What is Lorem Ipsum?<\/strong>"},"id":"ed2df2e7-feab-49ce-b9f5-03fa159714fd","isHidden":false,"type":"heading"},{"content":{"text":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged<\/p>"},"id":"0a6c3539-502a-400e-9e15-5719d3f681bd","isHidden":false,"type":"text"}]
+
+----
+
+Featuredimage:
+
+- 
+  id: blog/housing/blog-details-3.jpg
+  image:
+    back: pattern
+    color: orange-400
+    cover: false
+    icon: image
+    ratio: 3/2
+    url: >
+      http://literate-chainsaw.test/media/pages/blog/housing/a0c264642f-1731256076/blog-details-3.jpg
+    src: >
+      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+    srcset: >
+      http://literate-chainsaw.test/media/pages/blog/housing/a0c264642f-1731256076/blog-details-3-38x.jpg
+      38w,
+      http://literate-chainsaw.test/media/pages/blog/housing/a0c264642f-1731256076/blog-details-3-76x.jpg
+      76w
+  info: ""
+  link: >
+    /pages/blog+housing/files/blog-details-3.jpg
+  sortable: true
+  text: blog-details-3.jpg
+  uuid: file://uybtKVONoMygSwrb
+  filename: blog-details-3.jpg
+  dragText: '(image: blog-details-3.jpg)'
+  type: image
+  url: >
+    http://literate-chainsaw.test/media/pages/blog/housing/a0c264642f-1731256076/blog-details-3.jpg
+
+----
+
+Date: 2024-11-10 16:20:00
+
+----
+
+Author:
+
+- 
+  id: Ep9aeA5c
+  image:
+    back: black
+    color: gray-500
+    cover: false
+    icon: user
+    ratio: 1/1
+  info: ""
+  link: /account
+  sortable: true
+  text: Tim Hykes
+  uuid: user://Ep9aeA5c
+  email: tim@timhykes.com
+  username: Tim Hykes
+
+----
+
+Tags:
+
+- Vision
+- Love
+- Travel
+
+----
+
+Uuid: 1VvXBfmnljO8XpM2

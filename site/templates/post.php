@@ -76,18 +76,24 @@
                         <div class="row justify-content-center">
                            <div class="col-xl-8">
 
-                              <?php if ($page->content()->isNotEmpty()): ?>
-                                 <div class="blog-details-content tp_fade_bottom">
-                                    <?php foreach ($page->content()->toBlocks() as $block): ?>
-                                       <?php if ($block): // Check if block is not null ?>
-                                          <section class="block block-<?= $block->type() ?>">
-                                             <?= $block ?>
-                                          </section>
-                                       <?php endif; ?>
-                                    <?php endforeach; ?>
-                                 </div>
-                              <?php endif; ?>
-                              
+<?php $blocks = $page->text()->toBlocks(); ?>
+<?php if ($blocks->isNotEmpty()): ?>
+    <div class="blog-details-content tp_fade_bottom">
+        <?php foreach ($blocks as $block): ?>
+            <section class="block block-<?= $block->type() ?>">
+                <?php snippet('blocks/' . $block->type(), ['block' => $block]) ?>
+            </section>
+        <?php endforeach; ?>
+    </div>
+<?php else: ?>
+    <p>No content blocks found.</p>
+<?php endif; ?>
+
+
+
+
+
+
 
                                  <div class="blog-details-share-wrap mb-40">
                                     <div class="row">
