@@ -1,28 +1,67 @@
-fields:
-  text:
-    label: Text
-    type: blocks
-    fieldsets:
-      - type: heading
-        extends: blocks/heading
+title: Blog Post
+preset: article
+
+columns:
+  - width: 2/3
+    fields:
+      text:
+        label: Text
+        type: blocks
+        fieldsets:
+          - type: heading
+            extends: blocks/heading
+            fields:
+              level:
+                label: Heading Level
+                type: select
+                options:
+                  - h1
+                  - h2
+                  - h3
+                  - h4
+                  - h5
+                  - h6
+          - text
+          - image
+          - gallery
+          - video
+          - quote
+          - list
+          - code
+          - line
+          - markdown
+        help: "Add and arrange different types of content blocks like headings, images, videos, etc."
+
+  - width: 1/3
+    sections:
+      meta:
+        type: fields
         fields:
-          level:
-            label: Heading Level
-            type: select
-            options:
-              - h1
-              - h2
-              - h3
-              - h4
-              - h5
-              - h6
-      - text
-      - image
-      - gallery
-      - video
-      - quote
-      - list
-      - code
-      - line
-      - markdown
-    help: "Add and arrange different types of content blocks like headings, images, videos, etc."
+          featuredImage:
+            label: Featured Image
+            type: files
+            max: 1
+            help: "Select an image to use as the featured image for the post."
+          date:
+            label: Publication Date
+            type: date
+            time: true
+            default: now
+            help: "Set the publication date and time."
+          author:
+            label: Author
+            type: users
+            help: "Select the author of the post."
+          tags:
+            label: Tags
+            type: tags
+            help: "Add relevant tags for the post."
+
+options:
+  changeSlug: true
+  changeStatus: true
+  delete: true
+  duplicate: true
+  preview: true
+  changeTemplate: true
+  changeTitle: true
